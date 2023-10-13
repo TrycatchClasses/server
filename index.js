@@ -33,7 +33,7 @@ app.use("/products",productRoute);
 app.use("/cart" , cartRoute)
 
 mongoose
-  .connect("mongodb://localhost:27017/e-commerce")
+  .connect("mongodb+srv://worktrycatch:oDB5vzO6xTGP75q0@cluster0.afvkinp.mongodb.net/e-commerce")
   .then(() => {
     console.log("mongodb started");
   })
